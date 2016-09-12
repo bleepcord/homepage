@@ -1,0 +1,60 @@
+html {
+	background-color: #010a0a;
+	color: #91cd90;
+}
+
+h1 {
+	padding: 0px;
+	padding-right: 20px;
+	font-family: "Dejavu sans mono", dejavu, monospace;
+	margin: auto;
+	text-align: center;
+	color: #33744c;	
+}
+
+ul {
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: #9c7341;*/
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #9c7341;	
+}
+a:hover {
+	color: #2e694b;
+}
+
+.leftcolumn {
+	padding: 0;
+	float: left;
+	width: 33%;
+	height: 80%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centercolumn {
+	padding: 0;
+	display: inline-block;
+	width: 33%;
+	height: 80%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rightcolumn {
+	padding: 0;
+	float: right;
+	width: 33%;
+	height: 80%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
