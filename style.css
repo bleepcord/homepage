@@ -1,6 +1,6 @@
 html {
-	background-color: #010a0a;
-	color: #91cd90;
+	background-color: #020507;
+	color: #716e7a;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 	font-family: "Dejavu sans mono", dejavu, monospace;
 	margin: auto;
 	text-align: center;
-	color: #33744c;	
+	color: #15326c;	
 }
 
 ul {
@@ -24,10 +24,10 @@ li {
 
 a {
 	text-decoration: none;
-	color: #9c7341;	
+	color: #5e8d87;	
 }
 a:hover {
-	color: #2e694b;
+	color: #6ea6ff;
 }
 
 .leftcolumn {
@@ -57,4 +57,17 @@ a:hover {
 	vertical-align: middle;
 }
 
+.dropdown {
+  position: relative;
+  display: block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
